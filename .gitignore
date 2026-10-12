@@ -1,0 +1,14 @@
+# OS and editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Secrets. Never commit keys.
+.env
+.env.*
+!.env.example
+*.pem
+
+# Dependencies
+node_modules/
